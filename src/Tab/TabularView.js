@@ -42,9 +42,11 @@ class TabularView extends React.Component {
 
   selectTab = e => {
     const { id } = e.target;
+    const selectedTab = parseInt(id, 10);
     this.setState({
-      selectedTab: parseInt(id, 10),
+      selectedTab,
     });
+    scroll = document.getElementById(selectedTab).getBoundingClientRect().x;
   };
 
   scroll = type => {
