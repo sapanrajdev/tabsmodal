@@ -1,0 +1,97 @@
+.container {
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 50px;
+  border: 2px solid rgb(237,237,237);
+}
+.header {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+}
+.tabular-view {
+  width: 106px;
+  height: 27px;
+  cursor: pointer;
+}
+.bg-gray {
+  background: #F6F6F6;
+  border-top: 1px solid rgb(224,224,224);
+}
+.max-width {
+  overflow: auto;
+  white-space: nowrap;
+}
+.max-width::-webkit-scrollbar {
+  width: 1em;
+  height: 3px;
+}
+.max-width::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 12px #F6F6F6;
+}
+.max-width::-webkit-scrollbar-thumb {
+  background-color: #51B9FA;
+    outline: 1px solid slategrey;
+}
+.button {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  visibility: hidden;
+}
+.wrapper {
+  color: rgb(151,131,125);
+}
+.wrapper span {
+  vertical-align: middle;
+}
+.wrapper:hover .button {
+  visibility: visible;
+  font-size: 12px;
+  background: transparent;
+  border: 0px;
+  vertical-align: top;
+  float: right;
+  cursor: pointer;
+}
+.selected-tab {
+  color: #777B89;
+  font-weight: 600;
+}
+.btn button {
+  background: #F6F6F6;
+  border: 0px;
+  font-size: 20px;
+  color: #7E7E7E;
+  cursor: pointer;
+}
+
+.btn button:disabled {
+  color: #C5C5C4;
+  cursor: not-allowed;
+}
+
+textarea {
+  margin-top: 50px;
+  height: auto;
+  width: 382px;
+  border: 1px dashed #E6E6E6;
+  margin: 25px;
+  font-size: 25px;
+  resize: none;
+}
+
+textarea::placeholder{
+  font-size: 12px;
+}
+
+textarea::-webkit-scrollbar {
+  width: 4px;
+}
+textarea::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 12px #F6F6F6;
+}
+textarea::-webkit-scrollbar-thumb {
+  background-color: #51B9FA;
+    outline: 1px solid slategrey;
+}
